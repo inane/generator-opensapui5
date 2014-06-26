@@ -1,0 +1,53 @@
+{
+	"name": "generator-opensapui5",
+	"version": "0.0.1",
+	"description": "Open-SapUI5 generator for yeoman",
+	"keywords": [
+		"yeoman-generator",
+		"SAP",
+		"UI5",
+		"html5"
+	],
+	"homepage": "https://github.com/inane/generator-opensapui5",
+	"bugs": "https://github.com/inane/generator-opensapui5/issues",
+	"author": {
+		"name": "Óscar Yuste",
+		"email": "me@oscaryuste.info",
+		"url": "https://github.com/inane"
+	},
+	"main": "app/index.js",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/inane/generator-opensapui5.git"
+	},
+	"scripts": {
+		"test": "mocha"
+	},
+	"dependencies": {
+		"yeoman-generator": "~0.16.0",
+		"chalk": "~0.4.0"
+	},
+	"devDependencies": {
+		"mocha": "~1.17.1",
+		"grunt": "~0.4.1",
+		"grunt-contrib-jshint": "~0.8.0",
+		"grunt-contrib-watch": "~0.5.3",
+		"grunt-mocha-test": "~0.9.0",
+		"grunt-release": "~0.6.0",
+		"load-grunt-tasks": "~0.3.0",
+		"marked": "~0.3.1",
+		"semver": "~2.2.1",
+		"grunt-conventional-changelog": "~1.0.0",
+		"cheerio": "~0.13.1"
+	},
+	"peerDependencies": {
+		"yo": ">=1.0.0-rc.1"
+	},
+	"engines": {
+		"node": ">=0.8.0",
+		"npm": ">=1.2.10"
+	},
+	"licenses": [{
+		"type": "Apache License, Version 2.0"
+	}]
+}
