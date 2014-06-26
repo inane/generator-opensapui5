@@ -30,7 +30,7 @@
 		}, {
 			name: "authorName",
 			message: "What is your name?",
-			default: "John Doe"
+			default: "Ö"
 		}, {
 			name: "gitRepository",
 			message: "What is your git repository?",

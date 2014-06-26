@@ -65,20 +65,20 @@
 			path = path + "/";
 		}
 
-		this.mkdir(path + "/css");
-		this.copy("../../app/templates/gitkeep", path + "css/.gitkeep");
+		// this.mkdir(path + "/css");
+		// this.copy("../../app/templates/gitkeep", path + "css/.gitkeep");
 
-		this.mkdir(path + "/i18n");
-		this.copy("../../app/templates/gitkeep", path + "i18n/.gitkeep");
+		// this.mkdir(path + "/i18n");
+		// this.copy("../../app/templates/gitkeep", path + "i18n/.gitkeep");
 
-		this.mkdir(path + "/img");
-		this.copy("../../app/templates/gitkeep", path + "img/.gitkeep");
+		// this.mkdir(path + "/img");
+		// this.copy("../../app/templates/gitkeep", path + "img/.gitkeep");
 
-		this.mkdir(path + "/js");
-		this.copy("../../app/templates/gitkeep", path + "js/.gitkeep");
+		// this.mkdir(path + "/js");
+		// this.copy("../../app/templates/gitkeep", path + "js/.gitkeep");
 
-		this.mkdir(path + "/view");
-		this.copy("../../app/templates/gitkeep", path + "view/.gitkeep");
+		// this.mkdir(path + "/view");
+		// this.copy("../../app/templates/gitkeep", path + "view/.gitkeep");
 
 
 		this.template("application/_Component.js", path + "Component.js");
